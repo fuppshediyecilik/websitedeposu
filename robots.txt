@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /billing/
+Disallow: /*.json$
+Disallow: /*.xml$
+
+Sitemap: https://nexgen-ai.manus.space/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
+
+# Request rate
+Request-rate: 30/60
